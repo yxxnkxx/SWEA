@@ -8,9 +8,9 @@ public class SWEA_1954_달팽이숫자 {
 			nums[i][j] = snail++;
 			if (i < N - 1 && j < N - 1) {
 				dfs(nums, i, j + 1, snail, N);
-			} else if (i < N-1 && j == N-1) {
-				dfs(nums, i+1, j, snail, N); 
-			} else if (i == )
+			} else if (i < N - 1 && j == N - 1) {
+				dfs(nums, i + 1, j, snail, N);
+			}
 
 		}
 	}
